@@ -20,7 +20,7 @@ def items(request):
     return render(request, 'item/items.html', {
         'items': items,
         'query': query,
-          'categories': categories,
+        'categories': categories,
         'category_id': int(category_id)
     })
 
